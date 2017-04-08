@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>三栏布局</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        #content{
+            margin: 30px;
+            padding: 20px;
+            background: #eee;
+            border:1px solid #999;
+        }
+        .menu{
+            width: 200px;;
+            padding: 20px;
+            float: left;
+            border: 1px solid #999;
+            background: #fff;
+        }
+        .menu .team-img{
+            width: 80px;
+            height: 80px;
+            float: left;
+        }
+        .menu h3{
+            float: left;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+        .aside{
+            float: right;
+            width: 120px;
+            border: 1px solid #999;
+            background: #fff;
+            padding: 20px;
+        }
+        .aside img{
+            width: 80px;
+            height: 80px;
+            margin-bottom: 20px;
+        }
+        .aside img:last-child{
+            margin-bottom: 0;
+        }
+        .main{ 
+            background: #fff;
+            border: 1px solid #999;
+            padding: 20px;
+            margin-left: 220px;
+            margin-right: 140px;
+        }
+        .main h3{
+            text-align: center;
+        }
+        .main p{
+            text-indent: 36px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content" class="clearfix">
+        <div class="menu clearfix">
+            <img src="http://f.hiphotos.baidu.com/image/h%3D200/sign=6aa130b5afec8a130b1a50e0c7029157/11385343fbf2b211ae9e9114cc8065380cd78e33.jpg" alt="" class="team-img">
+            <h3>团队名称</h3>
+        </div>
+        <div class="aside">
+            <img src="http://f.hiphotos.baidu.com/image/h%3D200/sign=6aa130b5afec8a130b1a50e0c7029157/11385343fbf2b211ae9e9114cc8065380cd78e33.jpg" alt="" >
+            <img src="http://f.hiphotos.baidu.com/image/h%3D200/sign=6aa130b5afec8a130b1a50e0c7029157/11385343fbf2b211ae9e9114cc8065380cd78e33.jpg" alt="" >
+            <img src="http://f.hiphotos.baidu.com/image/h%3D200/sign=6aa130b5afec8a130b1a50e0c7029157/11385343fbf2b211ae9e9114cc8065380cd78e33.jpg" alt="" >
+            <img src="http://f.hiphotos.baidu.com/image/h%3D200/sign=6aa130b5afec8a130b1a50e0c7029157/11385343fbf2b211ae9e9114cc8065380cd78e33.jpg" alt="" >
+            <img src="http://f.hiphotos.baidu.com/image/h%3D200/sign=6aa130b5afec8a130b1a50e0c7029157/11385343fbf2b211ae9e9114cc8065380cd78e33.jpg" alt="" >
+
+        </div>
+        <div class="main">
+            <h3>关于我的团队介绍</h3>
+            <p>目前暂时还没有团队，只有我孤单的一个人，比较烦躁，不知道在哪里去找0_0好吧，那介绍下自己^.^</p>
+            <p>我叫徐阳杰，今年30岁，男，来自武汉，毕业于武汉轻功大学，食品工程专业，硕士。</p>
+            <p>毕业后一直在一家食品厂工作搞生产管理，在那里工作了快3年了。工作还是蛮轻松的，每天朝九晚五，双休，就是工资有点低。要想升职很难，一般得至少5年，工资也不加。对于食品行业我已死了心，在武汉薪资普片偏低，本以为读了个研究生能找个好点的赚钱的工作，可惜专业不好比较后悔。于是下定决心转行</p>
+            <p>去年一开年就辞职了，想尝试下传说心中的销售行业，都说这行能赚钱，但压力比较大。通过朋友介绍去了一家叫分期乐的公司做APP推广。公司一开始主要是面向大学生做分期购物商城的，我来找公司时正好成立的一个新部门，要向蓝领这块推广。工作压力确实大，具体工作就不说了。</p>
+            <p>最近一个偶然的机会，从朋友那里了解到前端这个职业，心里突然就产生了学习这个念头。其实在读大学时就有点后悔报个什么食品专业了，当初真应该报计算机专业。有段时间想自学个软件编程，但由于种种原因最后还是没有坚持下来。</p>
+            <p>现在，突然又重新燃起了我的斗志,想好好的学一下，希望能实现我做编程的梦想。目前也是边工作，抽空时间学习。之前都是在网上找了写视频看看，资源还比较多，但是基本上没怎么写代码。在网上找学习资料的时候，无意中看到了百度前端技术学院。希望能同通过在这里学习，提高下技术吧。</p>
+            <p>蛮烦各位老师有空还是帮我看看哈，指导下，谢啦~~~</p>
+        </div>
+    </div>
+</body>
+</html>

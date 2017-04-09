@@ -1,0 +1,203 @@
+/*通用样式*/
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,body,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+body{
+    background: #ccc;
+}
+.container{
+    margin:0 30px;
+}
+
+/*网站头部*/
+#header{
+    background: #666;
+}
+#header .nav{
+    position: relative;
+    height: 80px;
+}
+
+#header .nav .logo{
+    position: absolute;
+    top: 50%;
+    margin-top: -40px;
+}
+
+#header .nav .logo img{
+    width:120px;
+    height: 80px;
+}
+#header .nav ul{
+    display: inline;
+}
+#header .nav li{
+    line-height: 80px;
+    float: right;
+    margin-right: 30px;
+}
+#header .nav li a{
+    font-size: 12px;
+    color:white;
+    text-decoration: none;
+}
+
+/*网页内容部分*/
+aside{
+    width: 400px;
+    float:right;
+    margin-left: -400px;
+}
+.artical{
+    margin-right: 420px;
+    float: left;
+}
+#body .content{
+    background: #fff;
+    box-shadow: 2px 2px 2px #666;
+    margin-top:20px;
+    padding: 40px 30px;
+}
+#body .content>h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #333
+}
+#body .content>h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+}
+#body .content>span{
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: #666;
+}
+#body .content>p{
+    line-height: 2;
+    text-indent: 36px;
+    font-size: 15px;
+}
+#body .content>img{
+    margin: 15px 0;
+}
+#body .artical-2 li{
+    list-style: none;
+    font-size: 15px;
+    margin-bottom: 6px;
+
+}
+#body .artical-3 li{
+    list-style: none;
+    width:120px;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+
+}
+#body .artical-3 li p{
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#body .artical-3 li img{
+    width: 100px;
+    height: 100px;
+}
+#body .artical-4>p{
+    text-indent: 0;
+}
+#body .artical-4 table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+#body .artical-4 table th{
+    text-align: left;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+
+}
+#body .artical-4 table td{
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+#body .artical-4 table tr:last-child{
+    background: #ccc;
+    font-weight: bold
+}
+#body .aside h2{
+    font-size: 18px;
+    padding: 10px;
+    border-left: 4px solid #ccc;
+}
+#body .aside form{
+    font-size: 13px;
+   
+}
+#body .aside form>div{
+    margin-bottom: 20px;
+}
+#body .aside form>div>p{
+    margin-left: 109px;
+    margin-top: 10px;
+    color: #ccc;
+}
+#body .aside form label[for=password]:nth-child(1){
+    margin-left: 26px;
+}
+#body .aside form .sex{
+    margin-left:65px;
+}
+#body .aside form .city{
+    margin-left:65px;
+}
+#body .aside form .hobby{
+    margin-left:65px;
+}
+#body .aside form .describe{
+    margin-left: 38px;
+    vertical-align: top;
+}
+#body .aside form .describe span{
+    float:left;
+}
+#body .aside form .describe textarea{
+    float:left;
+}
+#body .aside form input[type=submit]{
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    background: cornflowerblue;
+    color:#fff;
+    border-radius: 10px;
+}
+
+/*网页底部*/
+#footer{
+    height: 60px;
+    background: #333;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+#footer P{
+    line-height: 60px;
+}
